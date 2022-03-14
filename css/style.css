@@ -1,0 +1,153 @@
+
+/* image responsive code */
+img,
+object {
+  max-width: 100%;
+  height: auto;
+}
+
+/* End of image responsiveness */
+
+/* General Styles */
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* //Dynamic ::content */
+.wrap {
+  width: 30rem;
+  /* margin: 0 auto; */
+  
+  
+}
+.dynamic-content{
+  width: 20rem;
+   /* margin: 1rem auto;  */
+  
+}
+.list-title{
+  font-family: 'Lobster', cursive;
+  font-size: 3rem;
+ margin: 0;
+  text-align: center;
+  padding-top: 1rem;
+  color: goldenrod;
+  
+}
+.list-subtitle{
+  
+  font-family: 'Lobster Two', cursive;
+  font-size: 2rem;
+    text-align: center;
+  color:rgb(0, 0, 0);
+  margin: 0;
+  
+}
+.weekly-logo{
+  width: 25%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  
+}
+
+.list-bg{
+  background-image: url("../img/reflections_web_2.jpg"); 
+  background-color: #7aa6da;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+form {
+  font-size: 2rem;
+  line-height: 1.4;
+ 
+  border-radius: 0px;
+  padding: 0 1rem;
+  /* box-shadow: #9a9daf; */
+  width: auto;
+  margin: 0 auto;
+}
+.error {
+  color: red;
+}
+
+
+
+
+input[type="text"],
+select {
+  border: none;
+  border-bottom: 0.1rem solid #030303;
+  width: 95%;
+  padding: 0.3rem;
+  /* 
+  margin-top: 0;
+  margin-bottom: 0.2rem; */
+  background-color: #be944b; 
+  color: white;
+}
+
+
+
+
+input[type="submit"] {
+  
+  font-size: 1rem;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0.3rem 0;
+  border: none;
+  border-radius: 0;
+  text-align: center;
+  box-shadow: 0 0.1rem #535252;
+  width: 100%;
+}
+
+
+
+placeholder {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 100;
+}
+.enter-text{
+  margin-top: 0;
+}
+
+.fill-text{
+  width: 80%;
+  margin: 0.1rem auto;
+}
+ol {
+  /* background: #ffffff; */
+  padding: 20px;
+}
+ol li{
+  background: #be944b;
+  color: rgb(0, 0, 0);
+  padding: 0 1rem;
+  /* margin-left: 35px; */
+}
+.social-footer{
+  text-align: center;
+  padding-bottom: 1rem;
+  width: 80%;
+  margin: 0 auto;
+}
+.social-media{
+  padding: 0.2rem;
+  font-family: 'Lobster Two', cursive;
+  font-size: 1rem;
+  color: black;
+ 
+
+}
+hr{
+  border-top: 0.1rem solid rgb(218, 179, 8);
+}
